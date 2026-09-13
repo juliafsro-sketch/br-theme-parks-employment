@@ -46,18 +46,15 @@ The analysis examines 124,265 formal employment records across 469 Brazilian mun
 ---
 
 ## Repository Structure
-br-theme-parks-employment/
-├── README.md
-├── LICENSE
-├── sql/
-│ ├── 01_rais_extraction.sql
-│ ├── 02_caged_extraction.sql
-│ └── 03_total_employment.sql
-├── R/
-│ ├── mestrado_parques_completo.R
-│ └── graficos_finais.R
-└── outputs/
-└── README.md
+
+| Folder | File | Description |
+|--------|------|-------------|
+| `sql/` | `01_rais_extraction.sql` | Main RAIS extraction query |
+| `sql/` | `02_caged_extraction.sql` | Novo CAGED extraction query |
+| `sql/` | `03_total_employment.sql` | Total employment for LQ calculation |
+| `R/` | `mestrado_parques_completo.R` | Full analysis script (13 sections) |
+| `R/` | `graficos_finais.R` | Final publication-ready figures |
+| `outputs/` | `README.md` | Description of generated outputs |
 
 ---
 
