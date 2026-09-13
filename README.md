@@ -10,8 +10,13 @@
 
 This repository contains the SQL queries, R scripts, and data pipeline used in the paper:
 
+> **"Emprego formal e especialização setorial em parques temáticos: uma análise com microdados da RAIS"**
+> TCC - MBA em Business Intelligence & Analytics, Escola de Comunicações e Artes, Universidade de São Paulo (USP)
+
 > **"Theme Parks as Labor Markets: Territorial Specialization, Dual Employment Structures, and Wage Inequality in Brazil (2020–2024)"**
-> Submitted to the TEAAS Symposium 2026 — Orange County Convention Center, Orlando, FL
+> TEAAS Symposium 2026 — Orange County Convention Center, Orlando, FL
+
+The same data pipeline and analysis also supports an ongoing master's dissertation at PPGTUR/USP.
 
 The analysis examines 124,265 formal employment records across 469 Brazilian municipalities (CNAE 9321-2/00) using administrative microdata from RAIS and Novo CAGED, accessed via Google BigQuery through the [Base dos Dados](https://basedosdados.org) platform.
 
