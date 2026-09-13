@@ -36,7 +36,7 @@ The analysis examines 124,265 formal employment records across 469 Brazilian mun
 
 | Source | Description | Access |
 |--------|-------------|--------|
-| RAIS | Relação Anual de Informações Sociais — mandatory formal employment registry | [Base dos Dados](https://basedosdados.org/en/dataset/3e7c4d58-96ba-448e-b053-d385a829ef00) |
+| RAIS | Relação Anual de Informações Sociais — mandatory formal employment registry | [Base dos Dados](https://basedosdados.org/dataset/3e7c4d58-96ba-448e-b053-d385a829ef00?table=86b69f96-0bfe-45da-833b-6edc9a0af213) |
 | Novo CAGED | Monthly employment flow data | [Base dos Dados](https://basedosdados.org/dataset/br-me-novo-caged) |
 
 **Sectoral filter:** `cnae_2_subclasse = '9321200'`
