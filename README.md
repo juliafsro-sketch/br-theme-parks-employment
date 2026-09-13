@@ -25,7 +25,7 @@ The analysis examines 124,265 formal employment records across 469 Brazilian mun
 ## Key Findings
 
 - **+70%** growth in active employment (2020–2024)
-- **LQ = 379** in Penha/SC (Beto Carrero World) — sector is 379× more concentrated than national average
+- **LQ = 379** in Penha/SC (Beto Carrero World) - sector is 379× more concentrated than national average
 - **LQ = 181** in Aquiraz/CE (Beach Park)
 - **Dual labor market confirmed**: stable core (14–15 months tenure) vs. high-turnover periphery (5.2 months)
 - **82%** of racial wage gap unexplained by qualifications (Oaxaca-Blinder decomposition)
@@ -93,8 +93,8 @@ source("R/mestrado_parques_completo.R")
 
 | Indicator | Description |
 |-----------|-------------|
-| **LQ** | Location Quotient — municipal sectoral specialization |
-| **HHI** | Herfindahl-Hirschman Index — national territorial concentration |
+| **LQ** | Location Quotient - municipal sectoral specialization |
+| **HHI** | Herfindahl-Hirschman Index - national territorial concentration |
 | **Oaxaca-Blinder** | Racial wage gap decomposition |
 | **Kruskal-Wallis** | Tenure differences by occupation |
 | **Mann-Whitney** | Gender wage gap test |
@@ -108,7 +108,7 @@ If you use this code or data pipeline in your research, please cite:
 **MBA em Business Intelligence & Analytics**
 
 Ribeiro, J. (2026). Emprego formal e especialização setorial em parques temáticos:
-uma análise com microdados da RAIS. TCC — MBA em Business Intelligence & Analytics,
+uma análise com microdados da RAIS. Final Paper - MBA em Business Intelligence & Analytics,
 ECA/USP. GitHub: https://github.com/juliafsro-sketch/br-theme-parks-employment
 
 
@@ -116,7 +116,7 @@ ECA/USP. GitHub: https://github.com/juliafsro-sketch/br-theme-parks-employment
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
