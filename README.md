@@ -110,7 +110,6 @@ If you use this code or data pipeline in your research, please cite:
 Ribeiro, J. (2026). Emprego formal e especialização setorial em parques temáticos:
 uma análise com microdados da RAIS. TCC — MBA em Business Intelligence & Analytics,
 ECA/USP. GitHub: https://github.com/juliafsro-sketch/br-theme-parks-employment
-GitHub: https://github.com/juliafsro-sketch/br-theme-parks-employment
 
 
 ---
