@@ -46,3 +46,80 @@ The analysis examines 124,265 formal employment records across 469 Brazilian mun
 ---
 
 ## Repository Structure
+br-theme-parks-employment/
+├── README.md
+├── LICENSE
+├── sql/
+│ ├── 01_rais_extraction.sql
+│ ├── 02_caged_extraction.sql
+│ └── 03_total_employment.sql
+├── R/
+│ ├── mestrado_parques_completo.R
+│ └── graficos_finais.R
+└── outputs/
+└── README.md
+
+---
+
+## How to Reproduce
+
+### Prerequisites
+
+```r
+install.packages(c(
+  "tidyverse", "basedosdados", "geobr", "sf",
+  "patchwork", "viridis", "oaxaca"
+))
+```
+
+### Setup
+
+1. Create a Google Cloud project at [console.cloud.google.com](https://console.cloud.google.com)
+2. Enable the BigQuery API
+3. Add the Base dos Dados project to your BigQuery interface
+4. Replace `YOUR_PROJECT_ID` in the scripts with your project ID
+
+### Run
+
+```r
+basedosdados::set_billing_id("YOUR_PROJECT_ID")
+source("R/mestrado_parques_completo.R")
+```
+
+---
+
+## Indicators Calculated
+
+| Indicator | Description |
+|-----------|-------------|
+| **LQ** | Location Quotient — municipal sectoral specialization |
+| **HHI** | Herfindahl-Hirschman Index — national territorial concentration |
+| **Oaxaca-Blinder** | Racial wage gap decomposition |
+| **Kruskal-Wallis** | Tenure differences by occupation |
+| **Mann-Whitney** | Gender wage gap test |
+
+---
+
+## Citation
+
+If you use this code or data pipeline in your research, please cite:
+
+**TCC (MBA):**
+
+Ribeiro, J. (2026). Emprego formal e especialização setorial em parques temáticos:
+uma análise com microdados da RAIS. TCC — MBA em Business Intelligence & Analytics,
+ECA/USP. GitHub: https://github.com/juliafsro-sketch/br-theme-parks-employment
+GitHub: https://github.com/juliafsro-sketch/br-theme-parks-employment
+
+
+---
+
+## License
+
+MIT License — see [LICENSE](LICENSE) for details.
+
+---
+
+## Contact
+
+For questions about the methodology or data pipeline, please open an issue in this repository.
