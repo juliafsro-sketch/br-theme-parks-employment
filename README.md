@@ -1,4 +1,4 @@
-# Brazilian Theme Parks — Formal Employment Analysis (2020–2024)
+# Brazilian Theme Parks | Formal Employment Analysis (2020–2024)
 
 **Parques Temáticos Brasileiros — Análise do Emprego Formal (2020–2024)**
 
