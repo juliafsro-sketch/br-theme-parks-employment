@@ -101,7 +101,7 @@ source("R/mestrado_parques_completo.R")
 
 If you use this code or data pipeline in your research, please cite:
 
-**TCC (MBA):**
+**MBA em Business Intelligence & Analytics**
 
 Ribeiro, J. (2026). Emprego formal e especialização setorial em parques temáticos:
 uma análise com microdados da RAIS. TCC — MBA em Business Intelligence & Analytics,
